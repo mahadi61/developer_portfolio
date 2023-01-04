@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header and navigation css */
+header{
+    background: #FFF8F3;
+    background-image: url('./images/header_bg.png'), url('./images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    background-size: 50%;
+    
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px 50px 200px;
+    padding-top: 50px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+    
+}
+.nav_btn{
+    padding: 18px 35px;
+    background: #FD6E0A;
+    color: #ffff;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.nav_title{
+    font-weight: 800;
+    font-size: 45px;
+}
+.text_primary{
+    color: #FD6E0A;
+}
+
+/* banner css */
+
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.banner_sub_title{
+    color: #474747;
+    font-size: 45px;
+}
+.banner_title{
+    color: #181818;
+    font-size: 85px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.banner_text{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.img_area img{
+    width: 100%;
+}
+
+.cv_btn{
+    padding: 18px 35px;
+    background: #FD6E0A;
+    color: #ffff;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* about section css */
+
+.about{
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 3px;
+    padding: 130px 150px;
+    
+}
+
+.section_title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section_description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.info_content h4{
+    color: #757575;
+    font-size: 20px;
+}
+.info_content h3{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* work section css */
+
+.work{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.skill{
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+}
+.single_skill{
+    padding: 30px;
+    
+}
+.single_skill h3{
+    margin-top: 30px;
+}
