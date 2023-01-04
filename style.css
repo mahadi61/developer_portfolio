@@ -149,3 +149,70 @@ main{
     margin-top: 30px;
     margin-bottom: 15px;
 }
+
+
+/* resume area css */
+.cv_main{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    text-align: left;
+    max-width: 1140px;
+    padding: 100px;
+}
+.education_heading{
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 50px;
+}
+.education_title{
+    font-size: 25px;
+    color: #474747;
+}
+
+/* footer section css */
+.footer_main{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 0 100px;
+    background-color: #FFF8F3;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+.contact{
+    width: 40%;
+
+}
+.contact_title{
+    font-size: 30px;
+    color: #181818;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.footer_icon img{
+    margin-right: 5px;
+    
+}
+
+.massage input{
+    outline: none;
+    border: none;
+    margin-bottom: 24px;
+    background-color: ;
+    padding: 10px 20px;
+}
+.massage textarea{
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+}
+.footer_btn{
+    padding: 18px 35px;
+    background: #FD6E0A;
+    color: #ffff;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+}
