@@ -169,6 +169,9 @@ main{
     font-size: 25px;
     color: #474747;
 }
+.cv_btn_area{
+    text-align: center;
+}
 
 /* footer section css */
 .footer_main{
@@ -199,7 +202,6 @@ main{
     outline: none;
     border: none;
     margin-bottom: 24px;
-    background-color: ;
     padding: 10px 20px;
 }
 .massage textarea{
